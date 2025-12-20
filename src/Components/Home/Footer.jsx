@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { IoMdContact } from "react-icons/io";
+import { FiDownload } from "react-icons/fi";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
-// ✅ IMPORT PDF FROM ASSETS
+// PDF
 import cataloguePdf from "../../assets/img/company-profile.pdf";
 
-// ✅ IMPORT DOWNLOAD ICON
-import { FiDownload } from "react-icons/fi";
-
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+// 🔥 Reusable underline hover class
+const underlineClass =
+  "relative inline-flex items-center gap-2 w-fit " +
+  "after:content-[''] after:absolute after:left-0 after:-bottom-1 " +
+  "after:h-[2px] after:w-0 after:bg-yellow-400 " +
+  "after:transition-all after:duration-300 " +
+  "hover:text-yellow-400 hover:after:w-full";
 
 const Footer = () => {
   return (
@@ -21,9 +23,9 @@ const Footer = () => {
         {/* Company Info */}
         <div>
           <h3 className="text-xl font-semibold mb-4 border-b border-yellow-500 pb-2">
-            SHRI <span className="text-yellow-400 font-medium"> RAM FASTNERS..</span>
+            SHRI <span className="text-yellow-400 font-medium">RAM FASTNERS..</span>
           </h3>
-          <p className="text-white text-sm leading-relaxed">
+          <p className="text-sm leading-relaxed">
             Discover high-quality nuts and bolts, crafted for durability and
             precision. From industrial supplies to household needs, we ensure
             every project is strong and secure.
@@ -37,28 +39,29 @@ const Footer = () => {
             Page <span className="text-yellow-400 font-medium">Links..</span>
           </h3>
 
-          <div className="flex flex-col space-y-2 text-white">
-            <Link to="/about" className="hover:text-yellow-400 transition-colors">
+          <div className="flex flex-col space-y-2">
+            <Link to="/about" className={underlineClass}>
               About Us
             </Link>
-            <Link to="/car" className="hover:text-yellow-400 transition-colors">
+
+            <Link to="/products" className={underlineClass}>
               Our Products
             </Link>
-            <Link to="/services" className="hover:text-yellow-400 transition-colors">
+
+            <Link to="/services" className={underlineClass}>
               Applications
             </Link>
-            <Link to="/phone" className="hover:text-yellow-400 transition-colors">
-              Contact Us
+
+            <Link to="/phone" className={underlineClass}>
+              Contact Us <IoMdContact size={18} />
             </Link>
 
-            {/* ✅ DOWNLOAD CATALOGUE (FIXED) */}
             <a
               href={cataloguePdf}
               download="SRF-Fastener-Catalogue.pdf"
-              className="flex items-center gap-2 hover:text-yellow-400 transition-colors"
+              className={underlineClass}
             >
-               Catalogue
-              <FiDownload size={18} />
+              Catalogue <FiDownload size={18} />
             </a>
           </div>
         </div>
@@ -68,18 +71,13 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4 border-b border-yellow-500 pb-2">
             Fasteners <span className="text-yellow-400 font-medium">for Sale..</span>
           </h3>
+
           <div className="flex flex-col space-y-2">
-            {["Hex Bolts", "Nuts", "Screws", "Washers", "Anchors"].map(
-              (item, idx) => (
-                <Link
-                  key={idx}
-                  to="/"
-                  className="hover:text-yellow-400 transition-colors"
-                >
-                  {item}
-                </Link>
-              )
-            )}
+            {["Hex Bolts", "Nuts", "Screws", "Washers", "Anchors"].map((item, idx) => (
+              <Link key={idx} to="/" className={underlineClass}>
+                {item}
+              </Link>
+            ))}
           </div>
         </div>
 
@@ -88,17 +86,18 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4 border-b border-yellow-500 pb-2">
             Learn <span className="text-yellow-400 font-medium">More..</span>
           </h3>
+
           <div className="flex flex-col space-y-2">
-            <Link to="/" className="hover:text-yellow-400 transition-colors">
+            <Link to="/" className={underlineClass}>
               High-Quality Materials
             </Link>
-            <Link to="/" className="hover:text-yellow-400 transition-colors">
+            <Link to="/" className={underlineClass}>
               Wide Variety of Fasteners
             </Link>
-            <Link to="/" className="hover:text-yellow-400 transition-colors">
+            <Link to="/" className={underlineClass}>
               Bulk Orders & Discounts
             </Link>
-            <Link to="/" className="hover:text-yellow-400 transition-colors">
+            <Link to="/" className={underlineClass}>
               Reliable Delivery & Support
             </Link>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
 import ScrollToTop from "./Components/ScrollToTop";
@@ -21,10 +21,11 @@ import BuyForm from "./Components/Product/BuyForm";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <ScrollToTop />
 
+      {/* Spacer for fixed navbar */}
       <div className="pt-28">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,7 +42,7 @@ function App() {
           <Route path="/service-form" element={<ServiceForm />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
