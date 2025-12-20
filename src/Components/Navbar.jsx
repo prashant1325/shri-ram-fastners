@@ -95,7 +95,7 @@ const Navbar = () => {
       <div
         className={`md:hidden fixed left-0 right-0 bottom-0 bg-black z-40 transition-all duration-300
           border-t-2 border-yellow-400
-          shadow-[0_-5px_30px_rgba(250,204,21,0.9)]
+       
           ${menu ? "opacity-100 visible" : "opacity-0 invisible"}
         `}
         style={{ top: "112px" }}
