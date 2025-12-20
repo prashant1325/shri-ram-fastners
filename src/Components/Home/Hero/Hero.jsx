@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
           
           {/* Button 1 */}
-          <Link to="/car" className="w-full sm:w-auto">
+          <Link to="/Products" className="w-full sm:w-auto">
             <button
               className="
                 w-full
