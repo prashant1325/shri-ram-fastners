@@ -3,7 +3,7 @@ import React from "react";
 // Machine images
 import machine1 from "../../assets/img/bolt.jpg";
 import machine2 from "../../assets/img/thread.jpg";
-import machine3 from "../../assets/img/heat.jpg";
+import machine3 from "../../assets/img/mesh.webp";
 
 const Our = () => {
   return (
