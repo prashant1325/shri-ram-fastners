@@ -113,7 +113,7 @@ const Navbar = () => {
                   bg-yellow-400 text-black font-semibold
                   flex items-center justify-center gap-2
                   border-2 border-yellow-300
-                  shadow-[0_0_18px_rgba(250,204,21,0.9)]
+                 
                   active:scale-95 transition
                 "
               >
@@ -130,7 +130,7 @@ const Navbar = () => {
                   bg-yellow-400 text-black font-semibold
                   flex items-center justify-center gap-2
                   border-2 border-yellow-300
-                  shadow-[0_0_18px_rgba(250,204,21,0.9)]
+                
                   active:scale-95 transition
                 "
               >
