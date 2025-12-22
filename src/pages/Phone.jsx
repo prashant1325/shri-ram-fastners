@@ -6,24 +6,36 @@ import Footer from "../Components/Home/Footer";
 const Phone = () => {
   return (
     <>
-      {/* SEO FOR CONTACT PAGE */}
+      {/* 🔥 ADVANCED SEO FOR CONTACT PAGE (LOCAL + TRUST) */}
       <Helmet>
-        <title>Contact Shri Ram Fastners | Fasteners Manufacturer in India</title>
+        {/* 🔑 TITLE – LOCAL BUYER INTENT */}
+        <title>
+          Contact Nuts & Bolts Manufacturer in Ludhiana | Shri Ram Fastners Punjab
+        </title>
 
+        {/* 🧠 META DESCRIPTION – CONVERSION FOCUSED */}
         <meta
           name="description"
-          content="Contact Shri Ram Fastners for industrial fasteners, nuts, bolts and custom fastening solutions. Get in touch with our team for reliable quality and timely delivery."
+          content="Contact Shri Ram Fastners, a trusted nuts and bolts manufacturer in Ludhiana, Punjab. Reach us for industrial fasteners, high tensile bolts and custom fastening solutions with reliable delivery across Punjab and India."
         />
 
+        {/* 🔍 ADVANCED KEYWORDS (CONTACT + LOCATION) */}
         <meta
           name="keywords"
-          content="contact shri ram fastners, fasteners manufacturer contact, industrial fasteners supplier india, nuts and bolts manufacturer contact"
+          content="
+          contact nuts and bolts manufacturer in ludhiana,
+          fasteners supplier contact punjab,
+          industrial fasteners manufacturer ludhiana contact,
+          high tensile bolts supplier punjab,
+          custom fasteners manufacturer contact
+          "
         />
 
+        {/* 🌍 CANONICAL */}
         <link rel="canonical" href="https://www.shriramfastners.in/phone" />
       </Helmet>
 
-      {/* PAGE CONTENT */}
+      {/* PAGE CONTENT (UNCHANGED) */}
       <Contact />
       <Footer />
     </>

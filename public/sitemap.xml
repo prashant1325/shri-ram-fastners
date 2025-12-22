@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- 🔥 MAIN BUSINESS PAGES -->
   <url>
     <loc>https://www.shriramfastners.in/</loc>
     <priority>1.0</priority>
@@ -25,5 +26,29 @@
     <loc>https://www.shriramfastners.in/phone</loc>
     <priority>0.7</priority>
   </url>
+
+  <!-- 🚀 CITY SEO LANDING PAGE (VERY IMPORTANT) -->
+  <url>
+    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-ludhiana</loc>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 🌍 FUTURE PUNJAB CITY PAGES (ADD WHEN CREATED) -->
+  <!--
+  <url>
+    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-jalandhar</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-amritsar</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-patiala</loc>
+    <priority>0.85</priority>
+  </url>
+  -->
 
 </urlset>

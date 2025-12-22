@@ -7,24 +7,40 @@ import Footer from "../Components/Home/Footer";
 const Products = () => {
   return (
     <>
-      {/* SEO FOR PRODUCTS PAGE */}
+      {/* 🔥 ADVANCED SEO FOR PRODUCTS PAGE (LEAD-FOCUSED) */}
       <Helmet>
-        <title>Industrial Fasteners Products | Nuts & Bolts Manufacturer</title>
+        {/* 🔑 TITLE – HIGH BUYER INTENT */}
+        <title>
+          Nuts & Bolts Manufacturer in Ludhiana | Industrial Fasteners Supplier Punjab – Shri Ram Fastners
+        </title>
 
+        {/* 🧠 META DESCRIPTION – CONVERSION + LOCATION */}
         <meta
           name="description"
-          content="Explore a wide range of industrial fasteners including nuts, bolts, and high tensile fastening solutions manufactured by Shri Ram Fastners for multiple industries."
+          content="Shri Ram Fastners is a leading nuts and bolts manufacturer in Ludhiana, Punjab, offering industrial fasteners, high tensile bolts, MS & SS fasteners for automotive, railway, solar and infrastructure industries across Punjab and India."
         />
 
+        {/* 🔍 ADVANCED KEYWORDS (PRODUCT + CITY + STATE) */}
         <meta
           name="keywords"
-          content="industrial fasteners products, nuts and bolts manufacturer, high tensile bolts, fasteners supplier india, fastening solutions"
+          content="
+          nuts and bolts manufacturer in ludhiana,
+          industrial fasteners manufacturer ludhiana,
+          nuts bolts supplier punjab,
+          high tensile bolts manufacturer punjab,
+          ms nuts bolts supplier ludhiana,
+          stainless steel fasteners ludhiana,
+          custom fasteners manufacturer punjab,
+          automotive fasteners supplier punjab,
+          railway fasteners manufacturer india
+          "
         />
 
+        {/* 🌍 CANONICAL */}
         <link rel="canonical" href="https://www.shriramfastners.in/products" />
       </Helmet>
 
-      {/* PAGE CONTENT */}
+      {/* PAGE CONTENT (UNCHANGED) */}
       <OurCar />
       <WhyUs />
       <Footer />

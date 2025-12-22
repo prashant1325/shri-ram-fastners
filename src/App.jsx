@@ -18,6 +18,8 @@ import ServiceForm from "./pages/ServiceForm";
 
 // Components
 import BuyForm from "./Components/Product/BuyForm";
+import Ludhiana from "./pages/Ludhiana";
+
 
 function App() {
   return (

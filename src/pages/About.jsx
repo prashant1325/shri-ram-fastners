@@ -8,24 +8,38 @@ import Footer from "../Components/Home/Footer";
 const About = () => {
   return (
     <>
-      {/* SEO FOR ABOUT PAGE */}
+      {/* 🔥 ADVANCED SEO FOR ABOUT PAGE (TRUST + LOCAL AUTHORITY) */}
       <Helmet>
-        <title>About Shri Ram Fastners | Industrial Fasteners Manufacturer</title>
+        {/* 🔑 TITLE – BRAND + LOCATION AUTHORITY */}
+        <title>
+          About Shri Ram Fastners | Nuts & Bolts Manufacturer in Ludhiana, Punjab
+        </title>
 
+        {/* 🧠 META DESCRIPTION – TRUST + INDUSTRIAL SIGNAL */}
         <meta
           name="description"
-          content="Learn about Shri Ram Fastners, a trusted industrial fasteners manufacturer known for quality, precision engineering, and reliable fastening solutions across industries."
+          content="Shri Ram Fastners is a trusted nuts and bolts manufacturer in Ludhiana, Punjab, specializing in industrial fasteners, high tensile bolts and precision fastening solutions for automotive, railway and infrastructure industries."
         />
 
+        {/* 🔍 ADVANCED KEYWORDS (BRAND + LOCATION + INDUSTRY) */}
         <meta
           name="keywords"
-          content="about shri ram fastners, fasteners manufacturer company, industrial fasteners manufacturer india, nuts and bolts manufacturer"
+          content="
+          about shri ram fastners,
+          nuts and bolts manufacturer in ludhiana,
+          industrial fasteners manufacturer punjab,
+          high tensile bolts manufacturer ludhiana,
+          fasteners manufacturing company india,
+          automotive fasteners punjab,
+          railway fasteners manufacturer
+          "
         />
 
+        {/* 🌍 CANONICAL */}
         <link rel="canonical" href="https://www.shriramfastners.in/about" />
       </Helmet>
 
-      {/* PAGE CONTENT */}
+      {/* PAGE CONTENT (UNCHANGED) */}
       <Intro />
       <Our />
       <WhyUs />

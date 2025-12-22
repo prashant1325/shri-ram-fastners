@@ -7,24 +7,38 @@ import Footer from "../Components/Home/Footer";
 const Services = () => {
   return (
     <>
-      {/* SEO FOR APPLICATIONS PAGE */}
+      {/* 🔥 ADVANCED SEO FOR APPLICATIONS PAGE (INDUSTRY + LOCATION) */}
       <Helmet>
-        <title>Fastener Applications | Industrial Fastening Solutions</title>
+        {/* 🔑 TITLE – INDUSTRY + CITY + STATE */}
+        <title>
+          Industrial Fastener Applications in Ludhiana, Punjab | Shri Ram Fastners
+        </title>
 
+        {/* 🧠 META DESCRIPTION – APPLICATION + TRUST */}
         <meta
           name="description"
-          content="Discover industrial fastener applications across automotive, railway, solar, power and infrastructure sectors with reliable fastening solutions from Shri Ram Fastners."
+          content="Shri Ram Fastners provides industrial fastener applications in Ludhiana, Punjab for automotive, railway, solar, power and infrastructure sectors with durable, high-performance fastening solutions."
         />
 
+        {/* 🔍 ADVANCED KEYWORDS (APPLICATION + LOCATION) */}
         <meta
           name="keywords"
-          content="fastener applications, industrial fastening solutions, fasteners for automotive, railway fasteners, solar structure fasteners"
+          content="
+          industrial fastener applications ludhiana,
+          fasteners for automotive industry punjab,
+          railway fasteners manufacturer punjab,
+          solar structure fasteners ludhiana,
+          power plant fasteners india,
+          infrastructure fasteners supplier punjab,
+          heavy machinery fasteners manufacturer
+          "
         />
 
+        {/* 🌍 CANONICAL */}
         <link rel="canonical" href="https://www.shriramfastners.in/services" />
       </Helmet>
 
-      {/* PAGE CONTENT */}
+      {/* PAGE CONTENT (UNCHANGED) */}
       <Ser />
       <WhyUs />
       <Footer />
