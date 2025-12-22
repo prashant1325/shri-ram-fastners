@@ -7,8 +7,6 @@ const Hero = () => {
     <div
       className="relative h-screen w-full bg-cover bg-center flex items-center justify-center px-6"
       style={{ backgroundImage: `url(${img})` }}
-      role="banner"
-      aria-label="Shri Ram Fastners hero section"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-80"></div>
@@ -29,8 +27,6 @@ const Hero = () => {
           {/* Button 1 */}
           <Link to="/Products" className="w-full sm:w-auto">
             <button
-              aria-label="Browse industrial fasteners products"
-              title="Browse Fasteners Products"
               className="
                 w-full
                 bg-black text-white
@@ -55,8 +51,6 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto"
-            aria-label="Design custom fasteners via WhatsApp"
-            title="Design Your Fasteners"
           >
             <button
               className="

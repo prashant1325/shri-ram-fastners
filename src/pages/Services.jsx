@@ -7,7 +7,7 @@ import Footer from "../Components/Home/Footer";
 const Services = () => {
   return (
     <>
-      {/* ✅ SEO FOR APPLICATIONS PAGE */}
+      {/* SEO FOR APPLICATIONS PAGE */}
       <Helmet>
         <title>Fastener Applications | Industrial Fastening Solutions</title>
 
@@ -21,13 +21,10 @@ const Services = () => {
           content="fastener applications, industrial fastening solutions, fasteners for automotive, railway fasteners, solar structure fasteners"
         />
 
-        <link
-          rel="canonical"
-          href="https://www.shriramfastners.in/services"
-        />
+        <link rel="canonical" href="https://www.shriramfastners.in/services" />
       </Helmet>
 
-      {/* ✅ EXISTING CONTENT (UNCHANGED) */}
+      {/* PAGE CONTENT */}
       <Ser />
       <WhyUs />
       <Footer />

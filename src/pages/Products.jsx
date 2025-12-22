@@ -7,7 +7,7 @@ import Footer from "../Components/Home/Footer";
 const Products = () => {
   return (
     <>
-      {/* ✅ SEO FOR PRODUCTS PAGE */}
+      {/* SEO FOR PRODUCTS PAGE */}
       <Helmet>
         <title>Industrial Fasteners Products | Nuts & Bolts Manufacturer</title>
 
@@ -21,13 +21,10 @@ const Products = () => {
           content="industrial fasteners products, nuts and bolts manufacturer, high tensile bolts, fasteners supplier india, fastening solutions"
         />
 
-        <link
-          rel="canonical"
-          href="https://www.shriramfastners.in/products"
-        />
+        <link rel="canonical" href="https://www.shriramfastners.in/products" />
       </Helmet>
 
-      {/* ✅ EXISTING CONTENT (UNCHANGED) */}
+      {/* PAGE CONTENT */}
       <OurCar />
       <WhyUs />
       <Footer />

@@ -8,7 +8,7 @@ import Footer from "../Components/Home/Footer";
 const Home = () => {
   return (
     <>
-      {/* ✅ SEO KEYWORDS FOR HOME PAGE */}
+      {/* SEO FOR HOME PAGE */}
       <Helmet>
         <title>Fasteners Manufacturer in India | Shri Ram Fastners</title>
 
@@ -25,7 +25,7 @@ const Home = () => {
         <link rel="canonical" href="https://www.shriramfastners.in/" />
       </Helmet>
 
-      {/* ✅ EXISTING CONTENT (UNCHANGED) */}
+      {/* PAGE CONTENT */}
       <div>
         <Hero />
         <Featured />

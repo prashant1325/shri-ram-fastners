@@ -1,12 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import Contact from "../Components/Contact/Contact"; 
+import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Home/Footer";
 
 const Phone = () => {
   return (
     <>
-      {/* ✅ SEO FOR CONTACT PAGE */}
+      {/* SEO FOR CONTACT PAGE */}
       <Helmet>
         <title>Contact Shri Ram Fastners | Fasteners Manufacturer in India</title>
 
@@ -20,13 +20,10 @@ const Phone = () => {
           content="contact shri ram fastners, fasteners manufacturer contact, industrial fasteners supplier india, nuts and bolts manufacturer contact"
         />
 
-        <link
-          rel="canonical"
-          href="https://www.shriramfastners.in/phone"
-        />
+        <link rel="canonical" href="https://www.shriramfastners.in/phone" />
       </Helmet>
 
-      {/* ✅ EXISTING CONTENT (UNCHANGED) */}
+      {/* PAGE CONTENT */}
       <Contact />
       <Footer />
     </>
