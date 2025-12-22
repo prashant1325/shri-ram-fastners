@@ -7,20 +7,20 @@ import Footer from "../Components/Home/Footer";
 const Services = () => {
   return (
     <>
-      {/* 🔥 ADVANCED SEO FOR APPLICATIONS PAGE (INDUSTRY + LOCATION) */}
+      {/* 🔥 ULTRA-ADVANCED SEO FOR APPLICATIONS PAGE (INDUSTRY + LOCAL AUTHORITY) */}
       <Helmet>
-        {/* 🔑 TITLE – INDUSTRY + CITY + STATE */}
+        {/* 🔑 TITLE – APPLICATION + LUDHIANA + PUNJAB */}
         <title>
-          Industrial Fastener Applications in Ludhiana, Punjab | Shri Ram Fastners
+          Industrial Fastener Applications in Ludhiana | Automotive, Railway & Solar Fasteners Punjab – Shri Ram Fastners
         </title>
 
-        {/* 🧠 META DESCRIPTION – APPLICATION + TRUST */}
+        {/* 🧠 META DESCRIPTION – INDUSTRY USE + TRUST */}
         <meta
           name="description"
-          content="Shri Ram Fastners provides industrial fastener applications in Ludhiana, Punjab for automotive, railway, solar, power and infrastructure sectors with durable, high-performance fastening solutions."
+          content="Shri Ram Fastners delivers reliable industrial fastener applications in Ludhiana, Punjab for automotive, railway, solar, power and infrastructure sectors using high tensile, MS and stainless steel fastening solutions across Punjab and India."
         />
 
-        {/* 🔍 ADVANCED KEYWORDS (APPLICATION + LOCATION) */}
+        {/* 🔍 ADVANCED KEYWORDS – APPLICATION + NEAR ME + LOCATION */}
         <meta
           name="keywords"
           content="
@@ -28,14 +28,45 @@ const Services = () => {
           fasteners for automotive industry punjab,
           railway fasteners manufacturer punjab,
           solar structure fasteners ludhiana,
-          power plant fasteners india,
+          power plant fasteners supplier india,
           infrastructure fasteners supplier punjab,
-          heavy machinery fasteners manufacturer
+          heavy machinery fasteners manufacturer,
+          industrial fasteners near me
           "
         />
 
         {/* 🌍 CANONICAL */}
         <link rel="canonical" href="https://www.shriramfastners.in/services" />
+
+        {/* 🧩 SERVICE + LOCAL BUSINESS SCHEMA */}
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Industrial Fastener Applications",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Shri Ram Fastners",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ludhiana",
+                "addressRegion": "Punjab",
+                "addressCountry": "IN"
+              }
+            },
+            "areaServed": [
+              "Ludhiana",
+              "Jalandhar",
+              "Amritsar",
+              "Patiala",
+              "Mohali",
+              "Bathinda",
+              "Punjab"
+            ]
+          }
+          `}
+        </script>
       </Helmet>
 
       {/* PAGE CONTENT (UNCHANGED) */}

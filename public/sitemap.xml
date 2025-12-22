@@ -27,14 +27,13 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- 🚀 CITY SEO LANDING PAGE (VERY IMPORTANT) -->
+  <!-- 🚀 PRIMARY CITY LANDING PAGE -->
   <url>
     <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-ludhiana</loc>
     <priority>0.95</priority>
   </url>
 
-  <!-- 🌍 FUTURE PUNJAB CITY PAGES (ADD WHEN CREATED) -->
-  <!--
+  <!-- 🌍 PUNJAB CITY SEO PAGES -->
   <url>
     <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-jalandhar</loc>
     <priority>0.85</priority>
@@ -49,6 +48,15 @@
     <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-patiala</loc>
     <priority>0.85</priority>
   </url>
-  -->
+
+  <url>
+    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-mohali</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-bathinda</loc>
+    <priority>0.85</priority>
+  </url>
 
 </urlset>
