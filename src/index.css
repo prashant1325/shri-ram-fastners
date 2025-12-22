@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ MOBILE VIEW ONLY FIX */
+@media (max-width: 767px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+  }
+
+  /* Prevent white gap caused by mobile viewport */
+  body {
+    min-height: 100dvh;
+  }
+}
