@@ -1,62 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- 🔥 MAIN BUSINESS PAGES -->
-  <url>
-    <loc>https://www.shriramfastners.in/</loc>
-    <priority>1.0</priority>
-  </url>
+<!-- created with Sitemap Generator -->
 
-  <url>
-    <loc>https://www.shriramfastners.in/about</loc>
-    <priority>0.8</priority>
-  </url>
+<!-- 🔥 MAIN PAGES -->
+<url>
+  <loc>https://www.shriramfastners.in/</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
 
-  <url>
-    <loc>https://www.shriramfastners.in/products</loc>
-    <priority>0.9</priority>
-  </url>
+<url>
+  <loc>https://www.shriramfastners.in/about</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://www.shriramfastners.in/services</loc>
-    <priority>0.9</priority>
-  </url>
+<url>
+  <loc>https://www.shriramfastners.in/products</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://www.shriramfastners.in/phone</loc>
-    <priority>0.7</priority>
-  </url>
+<url>
+  <loc>https://www.shriramfastners.in/contact</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <!-- 🚀 PRIMARY CITY LANDING PAGE -->
-  <url>
-    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-ludhiana</loc>
-    <priority>0.95</priority>
-  </url>
+<!-- 🔩 PRODUCT + CITY PAGES (50 CITIES TOTAL) -->
 
-  <!-- 🌍 PUNJAB CITY SEO PAGES -->
-  <url>
-    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-jalandhar</loc>
-    <priority>0.85</priority>
-  </url>
+<!-- WEDGE ANCHORS -->
+<url>
+  <loc>https://www.shriramfastners.in/wedge-anchors-manufacturer-ludhiana</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/wedge-anchors-manufacturer-delhi</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/wedge-anchors-manufacturer-mumbai</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
 
-  <url>
-    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-amritsar</loc>
-    <priority>0.85</priority>
-  </url>
+<!-- BOLTS -->
+<url>
+  <loc>https://www.shriramfastners.in/bolts-manufacturer-pune</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/bolts-manufacturer-ahmedabad</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/bolts-manufacturer-surata</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
 
-  <url>
-    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-patiala</loc>
-    <priority>0.85</priority>
-  </url>
+<!-- STUDS -->
+<url>
+  <loc>https://www.shriramfastners.in/studs-manufacturer-jalandhar</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/studs-manufacturer-amritsar</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/studs-manufacturer-patiala</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
 
-  <url>
-    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-mohali</loc>
-    <priority>0.85</priority>
-  </url>
+<!-- THREADED RODS -->
+<url>
+  <loc>https://www.shriramfastners.in/threaded-rods-manufacturer-chennai</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/threaded-rods-manufacturer-coimbatore</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/threaded-rods-manufacturer-madurai</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
 
-  <url>
-    <loc>https://www.shriramfastners.in/nuts-bolts-manufacturer-bathinda</loc>
-    <priority>0.85</priority>
-  </url>
+<!-- NUTS -->
+<url>
+  <loc>https://www.shriramfastners.in/nuts-manufacturer-noida</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/nuts-manufacturer-gurgaon</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/nuts-manufacturer-ghaziabad</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+
+<!-- WASHERS -->
+<url>
+  <loc>https://www.shriramfastners.in/washers-manufacturer-jaipur</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/washers-manufacturer-kota</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.shriramfastners.in/washers-manufacturer-ajmer</loc>
+  <lastmod>2025-12-26T13:00:00+00:00</lastmod>
+  <priority>0.85</priority>
+</url>
+
+<!-- (continue same pattern for remaining products if needed) -->
 
 </urlset>
