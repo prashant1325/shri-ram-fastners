@@ -1,14 +1,30 @@
 User-agent: *
 Allow: /
 
-# Allow important assets
+# ✅ Allow all critical assets for fast rendering
 Allow: /assets/
 Allow: /images/
 Allow: /static/
+Allow: /Components/
+Allow: /src/
 
-# Block unnecessary system paths (safe)
+# 🚫 Block development & build files (save crawl budget)
 Disallow: /node_modules/
 Disallow: /dist/
+Disallow: /build/
+Disallow: /.env
+Disallow: /config/
+Disallow: /public/
 
-# Sitemap location
+# 🔍 Sitemap (Critical - points to your updated sitemap)
 Sitemap: https://www.shriramfastners.in/sitemap.xml
+
+# 🛡️ Block AI scrapers (protect content)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /

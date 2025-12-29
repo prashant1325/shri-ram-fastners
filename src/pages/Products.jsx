@@ -8,85 +8,88 @@ const Products = () => {
   return (
     <>
       {/* ================= ADVANCED PRODUCTS PAGE SEO ================= */}
-      <Helmet>
-        {/* 🔑 META TITLE (PAN INDIA + PRODUCT INTENT) */}
-        <title>
-          Industrial Fasteners Manufacturer in India | Nuts, Bolts & Anchors – Shri Ram Fastners
-        </title>
+    <Helmet>
+  {/* 🔑 META TITLE (ALL PRODUCTS + PAN INDIA) */}
+  <title>
+    Nuts Anchor Bolts Studs Threaded Rods | Fasteners Supplier India – Shri Ram Fastners
+  </title>
 
-        {/* 🧠 META DESCRIPTION (PRODUCT RANGE + CITIES + BUYER INTENT) */}
-        <meta
-          name="description"
-          content="Shri Ram Fastners is a leading industrial fasteners manufacturer in India. We manufacture and supply nuts, bolts, washers, anchors, screws, studs and threaded rods across Delhi, Mumbai, Pune, Chennai, Bengaluru, Hyderabad, Ahmedabad, Ludhiana and 500+ cities."
-        />
+  {/* 🧠 META DESCRIPTION (14 PRODUCTS + TOP CITIES + BUYER INTENT) */}
+  <meta
+    name="description"
+    content="Buy nuts, anchor bolts, studs, threaded rods, washers, U-bolts, screws, rivets, pins, nails, staples, key stock, cables, retaining rings from Shri Ram Fastners. Industrial fasteners supplier serving Delhi, Mumbai, Bengaluru, Chennai, Hyderabad, Pune, Ahmedabad, Ludhiana, Kolkata, Jaipur, Surat, Nagpur, Indore & 50+ cities."
+  />
 
-        {/* 🔍 KEYWORDS (SUPPORTIVE – GOOGLE SAFE) */}
-        <meta
-          name="keywords"
-          content="
-          industrial fasteners manufacturer india,
-          nuts and bolts manufacturer india,
-          bolts supplier india,
-          fasteners supplier delhi,
-          nuts bolts mumbai,
-          industrial fasteners pune,
-          anchors screws washers india,
-          high tensile bolts manufacturer india,
-          stainless steel fasteners supplier,
-          custom fasteners manufacturer india
-          "
-        />
+  {/* 🔍 KEYWORDS (ALL 14 PRODUCTS + CITIES – CONVERSION FOCUSED) */}
+  <meta
+    name="keywords"
+    content="
+    nuts anchor bolts manufacturer india, studs threaded rods supplier, washers U-bolts screws,
+    rivets pins nails staples, key stock cables retaining rings, industrial fasteners delhi mumbai,
+    nuts bolts bengaluru chennai hyderabad pune ahmedabad ludhiana, fasteners jaipur surat nagpur indore,
+    anchor bolts supplier navi mumbai coimbatore vadodara ghaziabad, buy threaded rods online india
+    "
+  />
 
-        {/* 🌍 CANONICAL */}
-        <link
-          rel="canonical"
-          href="https://www.shriramfastners.in/products"
-        />
+  {/* 🌍 CANONICAL */}
+  <link rel="canonical" href="https://www.shriramfastners.in/products" />
 
-        {/* 🌐 OPEN GRAPH */}
-        <meta
-          property="og:title"
-          content="Industrial Fasteners Manufacturer in India – Shri Ram Fastners"
-        />
-        <meta
-          property="og:description"
-          content="Manufacturer and supplier of nuts, bolts, anchors, screws, washers and industrial fasteners across India."
-        />
-        <meta
-          property="og:url"
-          content="https://www.shriramfastners.in/products"
-        />
-        <meta property="og:type" content="website" />
+  {/* 🌐 OPEN GRAPH */}
+  <meta property="og:title" content="Industrial Fasteners Catalog | Nuts Bolts Anchors India" />
+  <meta
+    property="og:description"
+    content="Complete range: nuts, anchor bolts, studs, U-bolts, screws, rivets for 50+ cities. Fast delivery."
+  />
+  <meta property="og:url" content="https://www.shriramfastners.in/products" />
+  <meta property="og:type" content="website" />
 
-        {/* 🐦 TWITTER */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Industrial Fasteners Manufacturer in India – Shri Ram Fastners"
-        />
-        <meta
-          name="twitter:description"
-          content="PAN India supplier of nuts, bolts, anchors, screws, washers and industrial fasteners."
-        />
+  {/* 🐦 TWITTER */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fasteners Products: Nuts Bolts Anchors | Shri Ram Fastners" />
+  <meta name="twitter:description" content="Nuts, studs, threaded rods, U-bolts, rivets across India." />
 
-        {/* 🧩 PRODUCT COLLECTION SCHEMA */}
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            "name": "Industrial Fasteners Products",
-            "url": "https://www.shriramfastners.in/products",
-            "description": "Collection of industrial fasteners including nuts, bolts, washers, anchors, screws and threaded rods manufactured by Shri Ram Fastners",
-            "provider": {
-              "@type": "Organization",
-              "name": "Shri Ram Fastners",
-              "url": "https://www.shriramfastners.in/"
-            }
-          }
-          `}
-        </script>
-      </Helmet>
+  {/* 🧩 ENHANCED COLLECTION + PRODUCT SCHEMA (RICH SNIPPETS) */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Industrial Fasteners Products - Shri Ram Fastners",
+      "url": "https://www.shriramfastners.in/products",
+      "description": "Complete catalog of nuts, anchor bolts, studs, threaded rods, washers, U-bolts, screws, rivets, pins, nails, staples, key stock, cables, retaining rings",
+      "provider": {
+        "@type": "Organization",
+        "name": "Shri Ram Fastners",
+        "url": "https://www.shriramfastners.in/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ludhiana",
+          "addressRegion": "Punjab",
+          "addressCountry": "IN"
+        }
+      },
+      "mainEntity": [
+        {"@type": "Product", "name": "Anchor Bolts", "category": "Fasteners"},
+        {"@type": "Product", "name": "Nuts", "category": "Fasteners"},
+        {"@type": "Product", "name": "Studs", "category": "Fasteners"},
+        {"@type": "Product", "name": "Threaded Rods", "category": "Fasteners"},
+        {"@type": "Product", "name": "Washers", "category": "Fasteners"},
+        {"@type": "Product", "name": "U-Bolts", "category": "Fasteners"},
+        {"@type": "Product", "name": "Screws", "category": "Fasteners"},
+        {"@type": "Product", "name": "Rivets", "category": "Fasteners"},
+        {"@type": "Product", "name": "Pins", "category": "Fasteners"},
+        {"@type": "Product", "name": "Nails", "category": "Fasteners"},
+        {"@type": "Product", "name": "Staples", "category": "Fasteners"},
+        {"@type": "Product", "name": "Key Stock", "category": "Fasteners"},
+        {"@type": "Product", "name": "Cables", "category": "Fasteners"},
+        {"@type": "Product", "name": "Retaining Rings", "category": "Fasteners"}
+      ],
+      "areaServed": ["Delhi", "Mumbai", "Bengaluru", "Chennai", "Hyderabad", "Pune", "Ahmedabad", "Ludhiana", "Kolkata", "Jaipur", "Surat", "Nagpur", "Indore"]
+    }
+    `}
+  </script>
+</Helmet>
+
       {/* ================= SEO END ================= */}
 
       {/* ================= PAGE CONTENT ================= */}
