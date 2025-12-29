@@ -3,21 +3,30 @@ import { AiOutlineClose } from "react-icons/ai";
 import { RiMenuUnfoldFill } from "react-icons/ri";
 import { IoMdContact } from "react-icons/io";
 import { FiDownload } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import logo from "../assets/img/logo.webp";
 import companyProfile from "../assets/img/company-profile.pdf";
+import { cities } from "../data/cities"; // ✅ cities list
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+  const location = useLocation();
 
+  /* ================= CITY DETECTION ================= */
+  const pathParts = location.pathname.split("/").filter(Boolean);
+  const possibleCity = pathParts[0];
+  const isCityPage = cities.includes(possibleCity);
+  const cityPrefix = isCityPage ? `/${possibleCity}` : "";
+
+  /* ================= NAV LINKS ================= */
   const navLinks = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About Us" },
-    { path: "/products", label: "Our Products" },
-    { path: "/services", label: "Applications" },
+    { path: `${cityPrefix || "/"}`, label: "Home" },
+    { path: `${cityPrefix}/about`, label: "About Us" },
+    { path: `${cityPrefix}/products`, label: "Our Products" },
+    { path: `${cityPrefix}/services`, label: "Applications" },
     {
-      path: "/phone",
+      path: isCityPage ? `${cityPrefix}/contact` : "/phone",
       label: "Contact Us",
       icon: <IoMdContact size={20} />,
     },
@@ -35,17 +44,15 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 h-28">
         
         {/* LOGO */}
-        <Link to="/" className="flex items-center">
-          <div
-            className="
-              flex items-center justify-center
-              h-20 w-20 md:h-24 md:w-24
-              rounded-full
-              shadow-[0_0_20px_rgba(250,204,21,0.9)]
-              md:shadow-none
-              md:border-4 md:border-yellow-400
-            "
-          >
+        <Link to={cityPrefix || "/"} className="flex items-center">
+          <div className="
+            flex items-center justify-center
+            h-20 w-20 md:h-24 md:w-24
+            rounded-full
+            shadow-[0_0_20px_rgba(250,204,21,0.9)]
+            md:shadow-none
+            md:border-4 md:border-yellow-400
+          ">
             <img
               src={logo}
               alt="Shri Ram Fastners"
@@ -95,7 +102,6 @@ const Navbar = () => {
       <div
         className={`md:hidden fixed left-0 right-0 bottom-0 bg-black z-40 transition-all duration-300
           border-t-2 border-yellow-400
-       
           ${menu ? "opacity-100 visible" : "opacity-0 invisible"}
         `}
         style={{ top: "112px" }}
@@ -108,14 +114,7 @@ const Navbar = () => {
                 href={link.path}
                 download="SRF-Company-Profile.pdf"
                 onClick={() => setMenu(false)}
-                className="
-                  w-full max-w-xs py-4 rounded-xl
-                  bg-yellow-400 text-black font-semibold
-                  flex items-center justify-center gap-2
-                  border-2 border-yellow-300
-                 
-                  active:scale-95 transition
-                "
+                className="w-full max-w-xs py-4 rounded-xl bg-yellow-400 text-black font-semibold flex items-center justify-center gap-2 border-2 border-yellow-300 active:scale-95 transition"
               >
                 {link.label}
                 {link.icon}
@@ -125,14 +124,7 @@ const Navbar = () => {
                 key={idx}
                 to={link.path}
                 onClick={() => setMenu(false)}
-                className="
-                  w-full max-w-xs py-4 rounded-xl
-                  bg-yellow-400 text-black font-semibold
-                  flex items-center justify-center gap-2
-                  border-2 border-yellow-300
-                
-                  active:scale-95 transition
-                "
+                className="w-full max-w-xs py-4 rounded-xl bg-yellow-400 text-black font-semibold flex items-center justify-center gap-2 border-2 border-yellow-300 active:scale-95 transition"
               >
                 {link.label}
                 {link.icon}
