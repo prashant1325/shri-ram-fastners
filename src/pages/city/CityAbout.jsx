@@ -1,22 +1,16 @@
 import React from "react";
-import { useParams, Navigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 import Intro from "../../Components/About/Intro";
 import Our from "../../Components/About/our";
 import WhyUs from "../../Components/Home/WhyUs/WhyUs";
 import Footer from "../../Components/Home/Footer";
-import { cities } from "../../data/cities";
 
 const CityAbout = () => {
   const { city } = useParams();
 
-  /* ================= CITY VALIDATION ================= */
-  if (!cities.includes(city)) {
-    return <Navigate to="/" replace />;
-  }
-
-  /* ================= FORMAT CITY NAME ================= */
+  // Format city name (hyphen → space, capitalize)
   const cityName = city
     .split("-")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -28,31 +22,56 @@ const CityAbout = () => {
     <>
       {/* ================= CITY ABOUT SEO ================= */}
       <Helmet>
+        {/* 🔑 META TITLE */}
         <title>
           About Shri Ram Fastners in {cityName} | Nuts & Bolts Manufacturer
         </title>
 
+        {/* 🧠 META DESCRIPTION */}
         <meta
           name="description"
           content={`Know about Shri Ram Fastners – trusted manufacturer and supplier of nuts, bolts, anchor bolts, studs, threaded rods, washers and industrial fasteners in ${cityName}. Serving construction, automotive & industrial sectors.`}
         />
 
+        {/* 🔍 KEYWORDS */}
         <meta
           name="keywords"
           content={`about shri ram fastners ${cityName}, nuts bolts manufacturer ${cityName}, fasteners supplier ${cityName}, anchor bolts ${cityName}, industrial fasteners near me ${cityName}`}
         />
 
-        <link rel="canonical" href={`${baseUrl}/${city}/about`} />
+        {/* 🌍 CANONICAL */}
+        <link
+          rel="canonical"
+          href={`${baseUrl}/${city}/about`}
+        />
 
-        <meta property="og:title" content={`About Shri Ram Fastners in ${cityName}`} />
+        {/* 🌐 OPEN GRAPH */}
+        <meta
+          property="og:title"
+          content={`About Shri Ram Fastners in ${cityName}`}
+        />
         <meta
           property="og:description"
-          content={`Industrial fasteners manufacturer serving ${cityName} with quality and reliability.`}
+          content={`Learn about Shri Ram Fastners – industrial fasteners manufacturer serving ${cityName} with quality and reliability.`}
         />
-        <meta property="og:url" content={`${baseUrl}/${city}/about`} />
+        <meta
+          property="og:url"
+          content={`${baseUrl}/${city}/about`}
+        />
         <meta property="og:type" content="website" />
 
-        {/* 🧩 ORGANIZATION SCHEMA */}
+        {/* 🐦 TWITTER */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={`About Fasteners Supplier in ${cityName}`}
+        />
+        <meta
+          name="twitter:description"
+          content={`Trusted nuts & bolts manufacturer supplying industrial fasteners in ${cityName}.`}
+        />
+
+        {/* 🧩 LOCAL BUSINESS / ORGANIZATION SCHEMA */}
         <script type="application/ld+json">
           {`
           {
@@ -60,7 +79,8 @@ const CityAbout = () => {
             "@type": "Organization",
             "name": "Shri Ram Fastners",
             "url": "${baseUrl}/${city}/about",
-            "description": "Manufacturer and supplier of nuts, bolts and industrial fasteners in ${cityName}",
+            "logo": "${baseUrl}/logo.png",
+            "description": "Manufacturer and supplier of nuts, bolts, anchor bolts and industrial fasteners in ${cityName}",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "${cityName}",
@@ -69,45 +89,27 @@ const CityAbout = () => {
             "areaServed": {
               "@type": "City",
               "name": "${cityName}"
-            }
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-9463616466",
+              "contactType": "sales",
+              "areaServed": "IN"
+            },
+            "knowsAbout": [
+              "Industrial Fasteners",
+              "Nuts and Bolts",
+              "Anchor Bolts",
+              "Automotive Fasteners",
+              "Construction Hardware"
+            ]
           }
           `}
         </script>
       </Helmet>
       {/* ================= SEO END ================= */}
 
-      {/* ================= CITY CONTENT ================= */}
-      <main className="max-w-7xl mx-auto px-6 py-10">
-        <h1 className="text-4xl font-bold mb-6">
-          About Shri Ram Fastners in {cityName}
-        </h1>
-
-        <section className="space-y-4 text-gray-700 text-lg">
-          <p>
-            Shri Ram Fastners is a well-established <strong>nuts and bolts manufacturer in {cityName}</strong>,
-            supplying high-quality industrial fasteners to construction, infrastructure,
-            manufacturing and automotive industries.
-          </p>
-
-          <p>
-            With years of experience in the fasteners industry, we provide
-            <strong> nuts, bolts, anchor bolts, studs, threaded rods, washers and U-bolts</strong>
-            to clients across {cityName} and nearby industrial zones.
-          </p>
-
-          <p>
-            Our commitment to quality standards, competitive pricing and on-time delivery
-            has made Shri Ram Fastners a trusted <strong>industrial fasteners supplier in {cityName}</strong>.
-          </p>
-
-          <p>
-            Whether you require bulk quantities or customized fasteners,
-            our team ensures professional support and reliable service in {cityName}.
-          </p>
-        </section>
-      </main>
-
-      {/* ================= EXISTING UI SECTIONS ================= */}
+      {/* ================= PAGE CONTENT (SAME AS ABOUT) ================= */}
       <Intro />
       <Our />
       <WhyUs />
