@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Allow important assets
+Allow: /assets/
+Allow: /images/
+Allow: /static/
+
+# Block unnecessary system paths (safe)
+Disallow: /node_modules/
+Disallow: /dist/
+
+# Sitemap location
+Sitemap: https://www.shriramfastners.in/sitemap.xml
