@@ -5,7 +5,7 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
   http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<!-- 🔥 MAIN PAGES (Highest Priority) -->
+<!-- 🔥 MAIN PAGES -->
 <url>
   <loc>https://www.shriramfastners.in/</loc>
   <lastmod>2025-12-29T08:00:00+00:00</lastmod>
@@ -27,51 +27,52 @@
   <priority>0.90</priority>
 </url>
 
-<!-- 🏭 TOP 25 CITIES x KEY PRODUCTS (Highest Traffic) -->
-<!-- NUTS & ANCHOR BOLTS (Top Search Volume) -->
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-delhi</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.85</priority></url>
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-mumbai</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.85</priority></url>
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-bengaluru</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.85</priority></url>
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-chennai</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.85</priority></url>
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-hyderabad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.85</priority></url>
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-pune</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.85</priority></url>
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-ahmedabad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.85</priority></url>
-<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-ludhiana</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<!-- 🏭 TOP CITIES – HIGH SEARCH COMBINATIONS -->
+
+<!-- NUTS & ANCHOR BOLTS -->
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-delhi</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-mumbai</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-bengaluru</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-chennai</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-hyderabad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-pune</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-ahmedabad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.90</priority></url>
+<url><loc>https://www.shriramfastners.in/nuts-anchor-bolts-ludhiana</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.95</priority></url>
 
 <!-- STUDS & THREADED RODS -->
-<url><loc>https://www.shriramfastners.in/studs-threaded-rods-kolkata</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.80</priority></url>
-<url><loc>https://www.shriramfastners.in/studs-threaded-rods-jaipur</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.80</priority></url>
-<url><loc>https://www.shriramfastners.in/studs-threaded-rods-surat</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.80</priority></url>
-<url><loc>https://www.shriramfastners.in/studs-threaded-rods-nagpur</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.80</priority></url>
+<url><loc>https://www.shriramfastners.in/studs-threaded-rods-kolkata</loc><priority>0.85</priority></url>
+<url><loc>https://www.shriramfastners.in/studs-threaded-rods-jaipur</loc><priority>0.85</priority></url>
+<url><loc>https://www.shriramfastners.in/studs-threaded-rods-surat</loc><priority>0.85</priority></url>
+<url><loc>https://www.shriramfastners.in/studs-threaded-rods-nagpur</loc><priority>0.85</priority></url>
 
-<!-- U-BOLTS & WASHERS & SCREWS -->
-<url><loc>https://www.shriramfastners.in/u-bolts-washers-screws-indore</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.80</priority></url>
-<url><loc>https://www.shriramfastners.in/u-bolts-washers-screws-thane</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.80</priority></url>
-<url><loc>https://www.shriramfastners.in/u-bolts-washers-screws-bhopal</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.80</priority></url>
+<!-- U-BOLTS, WASHERS & SCREWS -->
+<url><loc>https://www.shriramfastners.in/u-bolts-washers-screws-indore</loc><priority>0.85</priority></url>
+<url><loc>https://www.shriramfastners.in/u-bolts-washers-screws-thane</loc><priority>0.85</priority></url>
+<url><loc>https://www.shriramfastners.in/u-bolts-washers-screws-bhopal</loc><priority>0.85</priority></url>
 
-<!-- RIVETS PINS NAILS (Next Tier Cities) -->
-<url><loc>https://www.shriramfastners.in/rivets-pins-nails-visakhapatnam</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.75</priority></url>
-<url><loc>https://www.shriramfastners.in/rivets-pins-nails-pimpri-chinchwad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.75</priority></url>
-<url><loc>https://www.shriramfastners.in/rivets-pins-nails-patna</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.75</priority></url>
+<!-- RIVETS, PINS & NAILS -->
+<url><loc>https://www.shriramfastners.in/rivets-pins-nails-visakhapatnam</loc><priority>0.80</priority></url>
+<url><loc>https://www.shriramfastners.in/rivets-pins-nails-pimpri-chinchwad</loc><priority>0.80</priority></url>
+<url><loc>https://www.shriramfastners.in/rivets-pins-nails-patna</loc><priority>0.80</priority></url>
 
-<!-- 🛠️ FULL 50 CITIES COVERAGE (Priority 0.70) -->
-<url><loc>https://www.shriramfastners.in/fasteners-vadodara</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-ghaziabad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-lucknow</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-agra</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-faridabad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-meerut</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-nashik</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-varanasi</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-aurangabad</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-amritsar</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-navi-mumbai</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-coimbatore</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-vijayawada</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-jodhpur</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-madurai</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-raipur</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-chandigarh</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
-<url><loc>https://www.shriramfastners.in/fasteners-guwahati</loc><lastmod>2025-12-29T08:00:00+00:00</lastmod><priority>0.70</priority></url>
+<!-- 🛠️ FASTENERS – BROAD CITY COVERAGE -->
+<url><loc>https://www.shriramfastners.in/fasteners-vadodara</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-ghaziabad</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-lucknow</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-agra</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-faridabad</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-meerut</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-nashik</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-varanasi</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-aurangabad</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-amritsar</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-navi-mumbai</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-coimbatore</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-vijayawada</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-jodhpur</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-madurai</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-raipur</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-chandigarh</loc><priority>0.75</priority></url>
+<url><loc>https://www.shriramfastners.in/fasteners-guwahati</loc><priority>0.75</priority></url>
 
 </urlset>
